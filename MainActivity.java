@@ -38,6 +38,16 @@ public class MainActivity extends AppCompatActivity {
     TextView output;
     Bitmap bitmap;
     Uri uri;
+    
+    //Add following dependency:
+    /*
+    
+        implementation 'com.google.firebase:firebase-ml-vision-image-label-model:17.0.2'
+        
+        */
+    
+    
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
